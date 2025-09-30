@@ -16,11 +16,6 @@ const App = () => {
       buttonTextColor="#8D6E63"
       ease="power3.out"
     />
-
-
-
-
-    
     </div>
   );
 };

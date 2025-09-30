@@ -1,6 +1,3 @@
-
-
-
 "use client";
 
 import NavbarSection from "@/components/sections/NavbarSection";
@@ -11,21 +8,21 @@ import ProductsSection from "@/components/sections/ProductsSection";
 import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import ContactSection from "@/components/sections/ContactSection";
 import FooterSection from "@/components/sections/FooterSection";
+import ScrollFloatDemo from "@/components/sections/ScrollFloatDemo";
 
 export default function HomePage() {
   return (
     <div className="bg-[#FFFDF7]">
-       
-       
-        <NavbarSection />
-     
+      <NavbarSection />
       <HeroSection />
-      <AboutSection />
-      <FeaturesSection />
+      <ScrollFloatDemo />
       <ProductsSection />
+      {/* <AboutSection />
+      <FeaturesSection />
       <TestimonialsSection />
       <ContactSection />
-      <FooterSection />
+      <FooterSection /> */}
     </div>
   );
 }
+      
